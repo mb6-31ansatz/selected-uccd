@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# rendered figures and notebook run outputs: regenerate with
+#   python figures/make_figures.py && python figures/schematics.py
+# and by running notebooks 4 and 5
+figures/output/
+figures_run1/
+figures_SI/
+values_run1/
+values_SI/

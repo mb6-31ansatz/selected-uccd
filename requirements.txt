@@ -1,0 +1,17 @@
+# Tested versions (Python 3.13). `pip install -r requirements.txt` reproduces the
+# environment the stored results were generated with; run
+# `python scripts/check_environment.py` afterwards.
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+matplotlib==3.10.8
+pyscf==2.14.0
+qiskit==2.5.2
+qiskit-nature==0.8.0
+qiskit-aer==0.17.2
+qiskit-algorithms==0.4.0
+pillow>=10          # TIFF export in figures/make_figures.py
+# only to execute the notebooks headlessly
+nbformat
+nbclient
+ipykernel

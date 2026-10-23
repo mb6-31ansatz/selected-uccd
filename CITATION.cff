@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and the repository."
+title: "succd: selected unitary coupled cluster doubles with classically determined parameters"
+version: 1.0.0
+date-released: 2026-10-22
+license: Apache-2.0
+repository-code: "https://github.com/mb6-31ansatz/selected-uccd"
+# doi: 10.5281/zenodo.XXXXXXX   <- fill in once Zenodo has minted the release DOI
+authors:
+  - family-names: Bovoloni
+    given-names: Michelangelo
+    affiliation: "Department of Chemistry, Materials and Chemical Engineering \"G. Natta\", Politecnico di Milano"
+  - family-names: Macchi
+    given-names: Piero
+    affiliation: "Department of Chemistry, Materials and Chemical Engineering \"G. Natta\", Politecnico di Milano"
+  - family-names: Famulari
+    given-names: Antonino
+    affiliation: "Department of Chemistry, Materials and Chemical Engineering \"G. Natta\", Politecnico di Milano"
+    email: antonino.famulari@polimi.it
+preferred-citation:
+  type: article
+  title: "A Selected Unitary Coupled Cluster Ansatz with Classically Determined Parameters"
+  journal: "Journal of Chemical Theory and Computation"
+  year: 2026
+  # doi: 10.1021/acs.jctc.XXXXXXX   <- fill in on acceptance
+  authors:
+    - family-names: Bovoloni
+      given-names: Michelangelo
+    - family-names: Macchi
+      given-names: Piero
+    - family-names: Famulari
+      given-names: Antonino

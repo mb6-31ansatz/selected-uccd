@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "succd"
+version = "1.0.0"
+description = "Selected unitary coupled cluster doubles with classically determined parameters - companion code of the JCTC article"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Michelangelo Bovoloni" },
+  { name = "Piero Macchi" },
+  { name = "Antonino Famulari", email = "antonino.famulari@polimi.it" },
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "pandas",
+  "matplotlib",
+  "pyscf",
+  "qiskit",
+  "qiskit-nature",
+  "qiskit-aer",
+  "qiskit-algorithms",
+]
+
+[project.urls]
+Repository = "https://github.com/mb6-31ansatz/selected-uccd"
+# Archive = "https://doi.org/10.5281/zenodo.XXXXXXX"   <- fill in after the Zenodo release
+
+[project.optional-dependencies]
+notebooks = ["nbformat", "nbclient", "ipykernel", "jupyter"]
+figures = ["pillow"]
+
+[tool.setuptools]
+packages = ["succd"]

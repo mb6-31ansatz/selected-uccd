@@ -1,0 +1,43 @@
+succd — selected unitary coupled cluster doubles with classically determined parameters
+Copyright 2026 Michelangelo Bovoloni, Piero Macchi, Antonino Famulari
+
+This product is licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full text.
+
+--------------------------------------------------------------------------
+Third-party code included in this repository
+--------------------------------------------------------------------------
+
+succd/PySCFDriver_mod_vers.py
+
+    Derived from the PySCF driver of the Qiskit Nature project.
+    Copyright (C) IBM 2018, 2023.
+    Licensed under the Apache License, Version 2.0.
+    https://github.com/qiskit-community/qiskit-nature
+
+    This file has been MODIFIED from the original. The modifications enable
+    point-group symmetry in the underlying PySCF Mole object and expose the
+    quantities the selection step of this work requires. Changed lines are
+    marked with a "MODIFICATION" comment.
+
+Every other .py file in this repository is original work of the authors,
+carries an Apache 2.0 header, and is covered by the LICENSE file. This includes
+succd/pyscf_problem_extended.py, which imports Qiskit as a library but contains
+no Qiskit code.
+
+--------------------------------------------------------------------------
+Third-party software used but not included
+--------------------------------------------------------------------------
+
+The following are imported as dependencies and are not redistributed here.
+Their licences apply to them, not to this repository.
+
+    PySCF                Apache License 2.0
+    Qiskit               Apache License 2.0
+    Qiskit Nature        Apache License 2.0
+    Qiskit Algorithms    Apache License 2.0
+    Qiskit Aer           Apache License 2.0
+    NumPy                BSD 3-Clause
+    SciPy                BSD 3-Clause
+    pandas               BSD 3-Clause
+    matplotlib           PSF-based licence
